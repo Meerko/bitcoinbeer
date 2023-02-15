@@ -136,7 +136,7 @@ b{font-weight: 600;}
 }
 
 .logo{z-index: 999}
-.logo img {max-width: 250px;}
+.logo img {width: 250px; max-width: 250px;}
 
 .menu{
   transition: all 1s cubic-bezier(.215, .61, .355, 1);
@@ -324,16 +324,14 @@ iframe {border-radius: 10px;}
   margin-bottom: 0;
   text-align: center;
 }
-.footer h4{padding-bottom: 15px;}
-.footer p{font-size:14px; padding-bottom: 15px;}
+.footer img{width: 150px; margin-bottom: 15px;}
+.footer p{font-size:14px; padding-bottom: 25px;}
 .footer a{font-weight: 600; color: #fff;}
 
 .footer .icon-bar a{font-size: 28px;}
 .footer .icon-bar i:hover {transform: scale(1.1); color: var(--orange);}
 .footer .icon-bar i{margin: 0 5px; transition: ease .3s;}
 .flickity-page-dots{display: none;}
-
-
 
 
 @media (max-width: 768px) {
