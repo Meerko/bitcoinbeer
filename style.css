@@ -334,7 +334,7 @@ iframe {border-radius: 10px;}
 .flickity-page-dots{display: none;}
 
 
-@media (max-width: 375px) {
+@media (max-width: 1080px) {
   .grid{flex-wrap: wrap; padding: 0 20px}
 
   h2{font-size: 2em;}
